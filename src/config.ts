@@ -1,7 +1,7 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://brunociccarino.github.io", 
+  website: "https://brunociccarino.github.io",
   author: "Bruno Ciccarino",
   profile: "https://github.com/BrunoCiccarino",
   desc: "A minimal, small place where I post my articles.",
@@ -10,7 +10,7 @@ export const SITE: Site = {
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 3,
-  scheduledPostMargin: 15 * 60 * 1000, 
+  scheduledPostMargin: 15 * 60 * 1000,
   showArchives: true,
   editPost: {
     url: "https://github.com/satnaing/astro-paper/edit/main/src/content/blog",

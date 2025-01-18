@@ -22,7 +22,7 @@ Feeling pumped, I tried deploying my project to GitHub Pages. Boom. It didn’t 
 
 ## Second Deploy Attempt: Workflow Strike Two
 
-Okay, so I went back and fixed the workflow. At least, I *thought* I did. Nope. Still didn’t work. I double-checked everything, but something was off. At this point, frustration was creeping in.
+Okay, so I went back and fixed the workflow. At least, I _thought_ I did. Nope. Still didn’t work. I double-checked everything, but something was off. At this point, frustration was creeping in.
 
 ## The Subtree Push Fiasco
 
@@ -64,4 +64,3 @@ Here’s what I took away from this whole ordeal:
 In the end, I learned a ton about Astro.js, GitHub Pages, and myself. The journey wasn’t smooth, but the satisfaction of seeing my site live and functional made it all worth it. If you’re struggling with a similar process, don’t give up. You’ve got this.
 
 And hey, if I can figure this out at 3 AM with an empty stomach and a lot of anxiety, so can you!
-

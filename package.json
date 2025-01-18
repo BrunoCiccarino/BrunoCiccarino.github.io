@@ -12,7 +12,7 @@
     "format:check": "prettier --check . --plugin=prettier-plugin-astro",
     "format": "prettier --write . --plugin=prettier-plugin-astro",
     "lint": "eslint .",
-    "deploy": "npm run build && git add dist && git commit -m 'Deploy site' || echo 'No changes to commit' && git subtree push --prefix dist origin gh-pages"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.3",
@@ -39,6 +39,7 @@
     "astro-eslint-parser": "^1.0.3",
     "eslint": "^9.10.0",
     "eslint-plugin-astro": "^1.2.4",
+    "gh-pages": "^6.3.0",
     "globals": "^15.9.0",
     "prettier": "^3.3.3",
     "prettier-plugin-astro": "^0.14.1",

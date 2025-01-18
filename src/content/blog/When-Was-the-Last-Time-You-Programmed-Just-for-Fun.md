@@ -10,11 +10,12 @@ draft: false
 
 In today's fast-paced tech world, it seems like every line of code has to have a purpose. Developers are often caught up in building the next big thing, creating apps to boost their portfolios or even solving complex business problems. But when was the last time you just sat down to code for the sheer joy of it? To build something without a deadline, without a client, and without any expectations? If you can't remember, you might be missing out on one of the most valuable aspects of being a developer: recreational programming.
 
-I realized this while watching the *Tsoding* channel. In one of his streams, he casually built a search engine just for the sake of it. No big project, no client, no business need—just the pure joy of creating something because he wanted to. That moment opened my eyes to a different perspective on coding. It made me realize how much we, as developers, have lost the simple pleasure of building things just for fun. It’s so easy to get caught up in deadlines, portfolio pieces, and the pressure to create something groundbreaking. But sometimes, the best projects come from just having fun and letting your curiosity lead the way.
+I realized this while watching the _Tsoding_ channel. In one of his streams, he casually built a search engine just for the sake of it. No big project, no client, no business need—just the pure joy of creating something because he wanted to. That moment opened my eyes to a different perspective on coding. It made me realize how much we, as developers, have lost the simple pleasure of building things just for fun. It’s so easy to get caught up in deadlines, portfolio pieces, and the pressure to create something groundbreaking. But sometimes, the best projects come from just having fun and letting your curiosity lead the way.
 
 This was something I also experienced firsthand when I wrote my own bootloader in Assembly x86 (16-bit). The bootloader's sole purpose was to just for the fun of it. At the time, I was diving into the world of OS development (OSDev) simply out of curiosity. I had no big plans or goals, I just wanted to learn and see what would happen. It was incredibly satisfying to watch it run on real hardware after so much trial and error. If you're curious, you can check out the bootloader I created on [GitHub here](https://github.com/BrunoCiccarino/MinimalBoot).
 
 ## See aslo
+
 [recreational programming](https://medium.com/@zarkzork/recreational-programming-279e330c6f9a)
 [tsoding channel](https://www.youtube.com/tsoding)
 

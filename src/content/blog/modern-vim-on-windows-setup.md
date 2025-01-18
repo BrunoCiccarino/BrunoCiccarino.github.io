@@ -1,25 +1,29 @@
 ---
 title: "Modern Vim on Windows Setup"
 description: "A comprehensive guide to setting up Vim on Windows for modern web development workflows."
-pubDatetime: 2025-01-18 
+pubDatetime: 2025-01-18
 ---
 
 Hey there! Let me tell you about my journey into the world of minimalist (yet powerful) web development with Vim on Windows. If you think this is just another boring setup guide, think again! This is about nostalgia meeting practicality, with a modern twist.
 
 ### My Dotfiles: The Secret Sauce
+
 Before we dive into the specifics, let me point you to the heart of my setup: [my dotfiles](https://github.com/BrunoCiccarino/dotfiles). These guys have configs for everything—Windows Terminal, `.bashrc`, Neovim, Emacs, WezTerm, you name it. It’s basically my entire development environment in one neat repository. If you’re curious about how I tie all these tools together, that’s the place to check out. Feel free to fork or steal ideas for your own setup!
 
 ### Why Vim?
+
 First off, why am I even using Vim in 2025 when there are IDEs like VSCode that come with all the bells and whistles? Simple: **speed** and **focus**. Vim is like that old reliable friend who’s always there for you, doesn’t crash, and doesn’t hog your RAM. Sure, it takes some time to get used to, but once you do, there’s no going back.
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/r90nnz79r7q0v3gptinn.jpg)
 
 ### The Terminal: Enter WezTerm
-Before we dive into my Vim config, let me introduce you to my terminal emulator of choice: **WezTerm**. This is hands-down the best terminal I’ve used on Windows. It’s fast, super customizable, and feels snappy as hell. No disrespect to Windows Terminal or other options, but WezTerm just *clicked* for me. It’s perfect for running Vim, Git, Node.js, and whatever else I throw at it.
+
+Before we dive into my Vim config, let me introduce you to my terminal emulator of choice: **WezTerm**. This is hands-down the best terminal I’ve used on Windows. It’s fast, super customizable, and feels snappy as hell. No disrespect to Windows Terminal or other options, but WezTerm just _clicked_ for me. It’s perfect for running Vim, Git, Node.js, and whatever else I throw at it.
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ct5h93qxrtpnq6bhhf5r.jpg)
 
 ### The Vim Setup
+
 Okay, now for the main event: my Vim config. I’ve kept it clean and focused on what I actually need for web development—none of those bloated plugin setups or endless configs. It’s all about keeping things efficient while still being powerful.
 
 Here’s the core of my `.vimrc`:
@@ -98,17 +102,21 @@ let g:prettier#autoformat_require_pragma = 0
 ```
 
 ### Highlights of the Config
+
 - **Vundle**: Keeping plugins minimal and organized. Vundle just works.
-- **NERDTree**: Because sometimes you *do* need a file explorer.
+- **NERDTree**: Because sometimes you _do_ need a file explorer.
 - **ALE**: My linter and fixer of choice. ESLint + Prettier integration for JavaScript.
 - **YouCompleteMe**: Powerful autocomplete for coding efficiency.
 - **Prettier**: Auto-formatting on save keeps my code looking sharp.
 
 ### Why No Live Server?
+
 That’s right—no live server here. I’m rocking it old-school. I’ll manually refresh the browser, thank you very much. There’s something oddly satisfying about coding this way—it forces me to focus on writing good code instead of relying on instant feedback.
 
 ### Key Mappings to Love
+
 One of my favorite things about this setup is the key mappings:
+
 - **`jk` to escape insert mode**: No more reaching for `Esc`!
 - **`<C-s>` to save**: Muscle memory from modern editors.
 - **`<C-c>` to copy the entire file**: Instant sharing.
@@ -116,8 +124,9 @@ One of my favorite things about this setup is the key mappings:
 - **`<C-n>` and `<C-t>` for NERDTree**: Toggling the file explorer couldn’t be easier.
 
 ### The Retro Experience
+
 Developing in Vim on Windows feels nostalgic yet modern. Sure, I don’t have all the fancy tools like live servers or extensions popping up every other second, but that’s the point. It’s a distraction-free environment where I can actually focus on coding.
 
 ### Closing Thoughts
-If you’re looking for a lightweight, snappy development setup on Windows, give this a shot. Pairing Vim with WezTerm gives you a robust environment that’s both efficient and fun to use. It’s a bit of a throwback, sure, but it’s got all the modern tools you need to get the job done. Happy coding!
 
+If you’re looking for a lightweight, snappy development setup on Windows, give this a shot. Pairing Vim with WezTerm gives you a robust environment that’s both efficient and fun to use. It’s a bit of a throwback, sure, but it’s got all the modern tools you need to get the job done. Happy coding!
