@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main 
+      - main
 
 jobs:
   build-and-deploy:
@@ -16,7 +16,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18' 
+          node-version: '18'
           cache: 'npm'
 
       - name: Install dependencies
@@ -25,15 +25,8 @@ jobs:
       - name: Build the site
         run: npm run build
 
-      - name: Move built files to root
-        run: |
-          rm -rf ./* # Remove everything except the .git folder
-          cp -r dist/* ./
-
       - name: Deploy to GitHub Pages
-        run: |
-          git config user.name "${{ github.actor }}"
-          git config user.email "${{ github.actor }}@users.noreply.github.com"
-          git add .
-          git commit -m "Deploy to GitHub Pages" || echo "No changes to commit"
-          git subtree push --prefix=dist origin gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: dist
