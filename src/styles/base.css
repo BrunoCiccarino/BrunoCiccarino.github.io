@@ -19,7 +19,7 @@
     --color-card: 57, 60, 102;
     --color-card-muted: 74, 78, 134;
     --color-border: 177, 47, 50;
-    }
+  }
   #sun-svg,
   html[data-theme="dark"] #moon-svg {
     display: none;
@@ -115,9 +115,58 @@
     font-weight: var(--shiki-dark-font-weight) !important;
     text-decoration: var(--shiki-dark-text-decoration) !important;
   }
+
+  /* ===== Responsive Design ===== */
+  @media (max-width: 1024px) {
+    section,
+    footer {
+      @apply px-3 max-w-2xl;
+    }
+    body {
+      @apply text-base;
+    }
+  }
+
+  @media (max-width: 768px) {
+    section,
+    footer {
+      @apply px-2 max-w-xl;
+    }
+    svg {
+      @apply h-5 w-5;
+    }
+    svg.icon-tabler {
+      @apply h-5 w-5 sm:scale-100;
+    }
+    body {
+      @apply text-sm;
+    }
+    .prose {
+      @apply prose-sm;
+    }
+  }
+
+  @media (max-width: 480px) {
+    section,
+    footer {
+      @apply px-2 max-w-sm;
+    }
+    svg {
+      @apply h-4 w-4;
+    }
+    body {
+      @apply text-xs;
+    }
+    .prose {
+      @apply prose-xs;
+    }
+  }
 }
 
 @layer components {
+  .prose-xs {
+    @apply text-sm leading-relaxed;
+  }
   .display-none {
     @apply hidden;
   }
