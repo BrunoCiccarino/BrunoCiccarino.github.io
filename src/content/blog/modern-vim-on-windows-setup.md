@@ -1,6 +1,6 @@
 ---
 title: "Modern Vim on Windows Setup"
-description: "A comprehensive guide to setting up Vim on Windows for modern development workflows."
+description: "A comprehensive guide to setting up Vim on Windows for modern web development workflows."
 pubDatetime: 2025-01-18 
 ---
 
