@@ -78,3 +78,7 @@ After 40 straight hours awake (powered by caffeine and sheer stubbornness), I fi
 Despite the madness, I have to say, this journey was oddly fun in hindsight. Sure, it was exhausting, but I learned *a lot*—not just about Astro.js and deployment workflows, but also about resilience. If there’s one thing this experience taught me, it’s that sometimes the best way forward is to step back, laugh at your own stubbornness, and take a simpler path.  
 
 So, shoutout to GitHub Pages for the lessons (and the trolling), and to Vercel for being my saving grace. This was one wild ride I’ll never forget.  
+
+## Another Update: The GitHub Pages Miracle
+
+After 44 hours of battling with deployment, I finally managed to get it working on GitHub Pages. Miraculously, once I got it working on Vercel, I was able to successfully deploy it to GitHub Pages in just 30 minutes after tweaking the workflow. It was like everything finally fell into place!
