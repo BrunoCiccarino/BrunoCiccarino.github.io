@@ -13,7 +13,7 @@ export const SITE: Site = {
   scheduledPostMargin: 15 * 60 * 1000,
   showArchives: true,
   editPost: {
-    url: "https://github.com/satnaing/astro-paper/edit/main/src/content/blog",
+    url: "https://github.com/BrunoCiccarino/BrunoCiccarino.github.io/tree/main/src/content/blog",
     text: "Suggest Changes",
     appendFilePath: true,
   },
