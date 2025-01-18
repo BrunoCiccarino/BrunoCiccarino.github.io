@@ -15,7 +15,6 @@
     "deploy": "astro build && gh-pages -d dist"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.3",
     "@astrojs/rss": "^4.0.7",
     "@resvg/resvg-js": "^2.6.2",
     "astro": "^4.16.18",
@@ -25,9 +24,10 @@
     "remark-toc": "^9.0.0",
     "satori": "^0.11.0",
     "tailwindcss": "^3.4.11",
-    "typescript": "^5.5.3"
+    "typescript": "^5.7.3"
   },
   "devDependencies": {
+    "@astrojs/check": "^0.9.4",
     "@astrojs/react": "^3.6.2",
     "@astrojs/sitemap": "^3.1.6",
     "@astrojs/tailwind": "^5.1.0",
