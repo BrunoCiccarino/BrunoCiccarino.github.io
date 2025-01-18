@@ -16,7 +16,7 @@ export default defineConfig({
     }),
     react(),
     sitemap({
-      filter: page => SITE.showArchives || !page.endsWith("/archives"),
+      filter: (page) => SITE.showArchives || !page.endsWith("/archives"),
     }),
   ],
   markdown: {
@@ -30,12 +30,21 @@ export default defineConfig({
       ],
     ],
     shikiConfig: {
-      // For more themes, visit https://shiki.style/themes
       themes: { light: "min-light", dark: "night-owl" },
       wrap: true,
     },
   },
   vite: {
+    build: {
+      rollupOptions: {
+        onwarn(warning, warn) {
+          if (warning.message.includes("og.png")) {
+            return;
+          }
+          warn(warning);
+        },
+      },
+    },
     optimizeDeps: {
       exclude: ["@resvg/resvg-js"],
     },
