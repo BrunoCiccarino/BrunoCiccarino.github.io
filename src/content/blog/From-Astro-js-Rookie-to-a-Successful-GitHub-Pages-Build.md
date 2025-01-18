@@ -64,3 +64,17 @@ Here’s what I took away from this whole ordeal:
 In the end, I learned a ton about Astro.js, GitHub Pages, and myself. The journey wasn’t smooth, but the satisfaction of seeing my site live and functional made it all worth it. If you’re struggling with a similar process, don’t give up. You’ve got this.
 
 And hey, if I can figure this out at 3 AM with an empty stomach and a lot of anxiety, so can you!
+
+## GitHub Pages: The Final Troll  
+
+Just when I thought I had it all figured out, GitHub Pages decided to troll me. For some reason, it just wouldn’t recognize my deploy branch. Now, I’ll be the first to admit that this was *very* likely a skill issue on my part. But still, it completely derailed my progress and ate up even more hours of trial and error.  
+
+I tried everything. First, I went the manual route, filtering files by hand and pushing them to the deploy branch. Nope. Then, I gave GitHub Actions a shot—because automation, right? Well, turns out I’m apparently too incompetent to make that work. Finally, I resorted to the `gh-pages` CLI. Even that didn’t cooperate. It was like GitHub Pages was sitting back, laughing at my misery.  
+
+After 40 straight hours awake (powered by caffeine and sheer stubbornness), I finally threw in the towel. My patience was gone, my hair was turning gray, and I felt like GitHub Pages had won. So, I migrated to Vercel. Let me tell you, deploying with Vercel was like walking into an air-conditioned room after running a marathon in the desert—it just worked. It was simple, quick, and exactly what I needed after the chaos.  
+
+## A Silver Lining  
+
+Despite the madness, I have to say, this journey was oddly fun in hindsight. Sure, it was exhausting, but I learned *a lot*—not just about Astro.js and deployment workflows, but also about resilience. If there’s one thing this experience taught me, it’s that sometimes the best way forward is to step back, laugh at your own stubbornness, and take a simpler path.  
+
+So, shoutout to GitHub Pages for the lessons (and the trolling), and to Vercel for being my saving grace. This was one wild ride I’ll never forget.  
