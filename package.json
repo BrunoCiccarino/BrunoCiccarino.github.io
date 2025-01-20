@@ -12,7 +12,7 @@
     "format:check": "prettier --check . --plugin=prettier-plugin-astro",
     "format": "prettier --write . --plugin=prettier-plugin-astro",
     "lint": "eslint .",
-    "deploy": "astro build && vercel --prod"
+    "deploy": "vercel --prod"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.7",
