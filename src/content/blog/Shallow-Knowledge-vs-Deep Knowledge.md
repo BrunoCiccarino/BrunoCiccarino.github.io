@@ -1,6 +1,6 @@
 ---
 title: "Shallow Knowledge vs. Deep Knowledge: The Key to Standing Out in Today’s Tough Job Market"
-description: ""
+description: "Alright, let’s get real about something many of us have been thinking lately: knowledge isn’t just one thing, right? In tech (or any field, really), there’s a big difference between shallow knowledge and deep knowledge. One is quick and flashy but often short-lived, while the other is rooted, unshakeable, and usually way more valuable in the long run. And with how rough the job market’s been this year, understanding this difference could mean everything for your career."
 pubDatetime: 2024-11-04T20:15:07Z
 tags: ["programming", "productivity", "beginners", "learning", "Shallow Knowledge", "Deep Knowledge", "career tips", "job market", "self-improvement", "technology"]
 author: "Bruno Ciccarino"
