@@ -1,7 +1,7 @@
 ---
 title: "Electron Apps: Balancing Modern UI and Performance"
 description: "Electron has revolutionized desktop app development, but its reliance on browser-like technology has sparked debates. Can it deliver performance on par with native apps, or are we sacrificing too much for a slick UI?"
-pubDatetime: 2025-01-24T12:00:00Z
+pubDatetime: 2025-01-29T12:00:00Z
 tags: ["Electron", "Desktop Apps", "Performance", "UI Design", "Development"]
 author: "Bruno Ciccarino"
 featured: false
@@ -9,6 +9,8 @@ draft: false
 ---
 
 When you think about desktop apps today, Electron often comes to mind. It's the go-to framework for developers looking to build cross-platform apps with modern UIs using web technologies like JavaScript, HTML, and CSS. But here’s the thing: is this reliance on Electron always a good idea? Let’s unpack this by looking at performance and usability—and how it all relates to the kind of experience you’re trying to deliver.
+
+![gif](./img/theoffice.gif)
 
 ## The Case for Electron
 
