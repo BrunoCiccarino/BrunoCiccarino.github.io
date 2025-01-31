@@ -42,7 +42,7 @@ export const SOCIALS: SocialObjects = [
     name: "X",
     href: "https://x.com/ciccabrunow",
     linkTitle: `Follow ${SITE.title} on X`,
-    active: false,
+    active: true,
   },
   {
     name: "LinkedIn",
@@ -54,7 +54,7 @@ export const SOCIALS: SocialObjects = [
     name: "Mail",
     href: "brunociccarinoo@gmail.com",
     linkTitle: `Send an email to ${SITE.title}`,
-    active: false,
+    active: true,
   },
   {
     name: "TikTok",
@@ -70,9 +70,9 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Reddit",
-    href: "https://github.com/BrunoCiccarino/",
+    href: "https://www.reddit.com/user/ciccab/",
     linkTitle: `${SITE.title} on Reddit`,
-    active: false,
+    active: true,
   },
   {
     name: "Steam",
