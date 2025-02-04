@@ -1,19 +1,18 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://brunociccarino.github.io",
+  website: "https://bgcicca.github.io",
   author: "Bruno Ciccarino",
-  profile: "https://github.com/BrunoCiccarino",
+  profile: "https://github.com/bgcicca",
   desc: "A minimal, small place where I post my articles.",
-  title: "CiccaBruno.dev",
-  ogImage: "ciccabruno.dev.png",
+  title: "bgcicca",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 3,
   scheduledPostMargin: 15 * 60 * 1000,
   showArchives: true,
   editPost: {
-    url: "https://github.com/BrunoCiccarino/BrunoCiccarino.github.io/tree/main/src/content/blog",
+    url: "https://github.com/bgcicca/bgcicca.github.io/tree/main/src/content/blog",
     text: "Suggest Changes",
     appendFilePath: true,
   },
@@ -34,13 +33,13 @@ export const LOGO_IMAGE = {
 export const SOCIALS: SocialObjects = [
   {
     name: "Github",
-    href: "https://github.com/BrunoCiccarino/",
+    href: "https://github.com/bgcicca/",
     linkTitle: `Follow ${SITE.title} on Github`,
     active: true,
   },
   {
     name: "X",
-    href: "https://x.com/ciccabrunow",
+    href: "https://x.com/bgcicca",
     linkTitle: `Follow ${SITE.title} on X`,
     active: true,
   },
@@ -76,7 +75,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Steam",
-    href: "https://github.com/BrunoCiccarino/",
+    href: "https://github.com/bgcicca/",
     linkTitle: `${SITE.title} on Steam`,
     active: false,
   },

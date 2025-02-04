@@ -8,7 +8,7 @@ Hey there! Let me tell you about my journey into the world of minimalist (yet po
 
 ### My Dotfiles: The Secret Sauce
 
-Before we dive into the specifics, let me point you to the heart of my setup: [my dotfiles](https://github.com/BrunoCiccarino/dotfiles). These guys have configs for everything—Windows Terminal, `.bashrc`, Neovim, Emacs, WezTerm, you name it. It’s basically my entire development environment in one neat repository. If you’re curious about how I tie all these tools together, that’s the place to check out. Feel free to fork or steal ideas for your own setup!
+Before we dive into the specifics, let me point you to the heart of my setup: [my dotfiles](https://github.com/bgcicca/dotfiles). These guys have configs for everything—Windows Terminal, `.bashrc`, Neovim, Emacs, WezTerm, you name it. It’s basically my entire development environment in one neat repository. If you’re curious about how I tie all these tools together, that’s the place to check out. Feel free to fork or steal ideas for your own setup!
 
 ### Why Vim?
 
